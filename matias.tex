@@ -1,0 +1,178 @@
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+% Change the font if you want to, depending on whether you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{matias.bib}
+
+
+\begin{document}
+\name{Matias Febles}
+\tagline{Senior Quantitative Analyst}
+\photo{2.8cm}{matias}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{feblesmatias@gmail.com}
+  \phone{+541165025325}
+  % \mailaddress{Address, Street, 00000 County}
+  \location{Buenos Aires, Argentina}
+  \linkedin{https://www.linkedin.com/in/matias-febles-10552616/}
+  %\github{github.com/yourid}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+
+\cvsection[matias-p1sidebar]{Experience}
+
+\cvevent{Senior Quantitative Analyst}{CRISIL}{April 2019 -- Ongoing}{Buenos Aires, Argentina}
+\begin{itemize}
+\item Member of the team development of a price calculator for all kind of financial derivative 
+products using the Monte Carlo simulation method.
+\end{itemize}
+
+\divider
+
+\cvevent{Senior Quantitative Analyst}{CRISIL}{October 2018 -- April 2019}{New York, USA}
+\begin{itemize}
+\item Consultant for Morgan Stanley – Model Validation Group.
+\item Performing independent testing using Python and R languages for 
+models with logistic regression, random forest and decision tree for variable selection.
+\item Responsible for model validation documentation. 
+
+\end{itemize}
+
+\divider
+
+\cvevent{Senior Quantitative Analyst}{CRISIL}{August 2017 -- October 2018}{Buenos Aires, Argentina}
+\begin{itemize}
+\item Consultant for Citibank UK – Equity and Hybrids Group.
+\item Price and risk management of Equity and Hybrid (IR/FX/COMM) exotic financial derivatives.
+\item Scrutiny of pricing methodology, model soundness and test suite design. 
+\item Execution of calibration, benchmarking, computational performance, hedging, limiting cases, 
+stability and convergence tests. CCAR stress testing and PAA explains. 
+\item Responsible for technical documentation and executive summary report.
+\end{itemize}
+
+\divider
+
+\cvevent{Refinery Project Engineer}{YPF}{May 2014 -- August 2017}{Buenos Aires, Argentina}
+\begin{itemize}
+\item Project Engineer in Oil and Gas industry
+\item Control and Automation Team leader of the FCC (Fluid Catalytic Cracking) revamping. 
+\item Research work: “Analysis of industrial data transmission technologies Wireless HART in combination with Ethernet radio data transmission".
+\end{itemize}
+
+\divider
+
+% \cvevent{Integrated Circuit Layout Engineer}{Allegro Microsystems}{March 2010 -- May 2014}{Buenos Aires, Argentina}
+% \begin{itemize}
+% \item Project Engineer in Microelectronic industry
+% \item IC layout designer of integrated hall effect sensors and structures for thermal compensation and offset elimination. 
+% \item Creation of the physical representation of the analog design on silicon using the Cadence software tool. 
+% \item Experience leading teams for joint projects with USA. 
+% \end{itemize}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+% \cvsection{Projects}
+
+% \cvevent{Project 1}{Funding agency/institution}{}{}
+% \begin{itemize}
+% \item Details
+% \end{itemize}
+
+% \divider
+
+% \cvevent{Project 2}{Funding agency/institution}{Project duration}{}
+% A short abstract would also work.
+
+% \medskip
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+% \cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% \wheelchart{1.5cm}{0.5cm}{%
+%   6/8em/accent!30/{Sleep,\\beautiful sleep},
+%   3/8em/accent!40/Hopeful novelist by night,
+%   8/8em/accent!60/Daytime job,
+%   2/10em/accent/Sports and relaxation,
+%   5/6em/accent!20/Spending time with family
+% }
+
+% \clearpage
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+% \cvsection[page2sidebar]{Publications}
+
+% \nocite{*}
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}},type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+%\addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
