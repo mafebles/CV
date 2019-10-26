@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.9)  23 OCT 2019 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.9)  26 OCT 2019 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/matias/Desktop/CV/matias
-(/home/matias/Desktop/CV/matias.tex
+**/home/matias/Desktop/CV/latex-template/matias
+(/home/matias/Desktop/CV/latex-template/matias.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (./altacv.cls
@@ -1127,14 +1127,14 @@ Package logreq Info: Writing requests to 'matias.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  25061 strings out of 494923
- 499726 string characters out of 6180742
- 916515 words of memory out of 5000000
+ 499771 string characters out of 6180742
+ 917515 words of memory out of 5000000
  27967 multiletter control sequences out of 15000+600000
  249671 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,9n,91p,1151b,788s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,9n,91p,1166b,788s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_w6akef.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on matias.pdf (1 page, 254845 bytes).
+Output written on matias.pdf (1 page, 254913 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
